@@ -1,35 +1,39 @@
 body
 {
-font-family: Patua One;
-color:black;
-background: url('https://i.ibb.co/Ct7hyVw/1.jpg');
-background-size: cover;
-background-attachment: fixed;
-background-repeat: no-repeat; 
+	 font-family: Arvo;
+	 color:black;
+     background: url('unhas1.jfif');
+     background-size: cover;
+     background-attachment: fixed;
+     background-repeat: no-repeat; 
 
 }
 table
 {
- border: 3px solid black;
- width: 50%;
+	 border: 3px solid black;
+	 width: 60%;
 }
 td
 {
   border: 1px solid black;
   border-collapse: collapse;
+  background-color:rgba(0.5,0.5,0,0.5);
+  
 }
 th
 {
-background-color: #808080;
-width:200px;
-border: 2px solid black;
+	background-color:#808080;
+	width:200px;
+	border: 2px solid black;
  	
 }
 .jumbotron {
+  margin-top: 130px;
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   background-color: #e9ecef;
   border-radius: 0.3rem;
+  background-color: rgba(0,0,0,0);
 }
 .container {
   padding-right: 15px;
@@ -37,9 +41,23 @@ border: 2px solid black;
   margin-right: auto;
   margin-left: auto;
 }
- img
- {
- 	width: 100px;
- 	height: 120px;
- 	margin-left: auto;
- }
+img 
+{
+	width: 100px;
+	height: 120px;
+	float:right;
+	border: 2px solid black;
+	margin-right: 375px;
+}
+.fon
+{
+	font-size: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+h4
+{
+	color: white;
+}
