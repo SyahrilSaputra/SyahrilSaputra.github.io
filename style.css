@@ -2,7 +2,7 @@ body
 {
 	 font-family: Arvo;
 	 color:black;
-     background: url('https://i.ibb.co/ZfN2S95/unhas1.jpg');
+     background: url('unhas1.jpg');
      background-size: cover;
      background-attachment: fixed;
      background-repeat: no-repeat; 
@@ -28,7 +28,7 @@ th
  	
 }
 .jumbotron {
-  margin-top: 0px;
+  margin-top: 130px;
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   background-color: #e9ecef;
@@ -43,12 +43,11 @@ th
 }
 img 
 {
- width: 100px;
- height: 120px;
- display: block;
- margin-left: auto;
- margin-right: auto;
- border: 2px solid black;
+	width: 100px;
+	height: 120px;
+	float:right;
+	border: 2px solid black;
+	margin-right: 300px;
 }
 .fon
 {
@@ -61,4 +60,16 @@ h1, h2, h3, h4, h5, h6 {
 h4
 {
 	color: white;
+}
+.button
+{
+ background-color:#808080;
+  border-radius: 10px;
+  border:1px solid red;
+  width: 200px;
+  height: 30px;
+}
+.tombol
+{
+  margin-top: 20px;
 }
