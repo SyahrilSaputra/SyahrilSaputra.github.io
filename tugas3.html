@@ -4,42 +4,10 @@
 	<link rel="stylesheet" type="text/css" href="css.css">
 	<link href="https://fonts.googleapis.com/css?family=Pacifico|Patua+One|Playfair+Display&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="jasa.js"></script>
 	<title>
-		Profil
+		Tugas 3
 	</title>
-<script>
-function average(nilai1, nilai2, nilai3, nilai4, nilai5,)
-{
-	var  total, rata;
-	total = nilai1+nilai2+nilai3+nilai4+nilai5;
-
-	rata = total/5;
-	return rata;
-}
-function median(nilai1, nilai2, nilai3, nilai4, nilai5,)
-{
-	var array = [nilai1, nilai2, nilai3, nilai4, nilai5];
-	var median;
-    array.sort(function(a, b){return b - a});
-    median = array[2];
-    return median;
-}
-function highest(nilai1, nilai2, nilai3, nilai4, nilai5,)
-{
-	var array = [nilai1, nilai2, nilai3, nilai4, nilai5];
-	var maximal = Math.max.apply(Math, array);
-	return maximal;
-
-}
-function lowest(nilai1, nilai2, nilai3, nilai4, nilai5,)
-{
-	var array = [nilai1, nilai2, nilai3, nilai4, nilai5];
-	var minimal = Math.min.apply(Math, array);
-	return minimal;
-
-}
-
-</script>
 </head>
 <body>
 	<nav class="navbar">
@@ -72,11 +40,11 @@ function lowest(nilai1, nilai2, nilai3, nilai4, nilai5,)
 			<p class="teksNilai">Isikan Bilangan Mulai Dari Nilai 1 sampai Nilai 5, Lalu Klik Tombol di Bawah Untuk Mengetahui hasilnya</p>
 		</center>
 		<form>
-			<p class="teksNilai">Nilai 1 : <input type="text" id="1"/> </p>
-			<p class="teksNilai">Nilai 2 : <input type="text" id="2"/> </p>
-			<p class="teksNilai">Nilai 3 : <input type="text" id="3"/> </p>
-			<p class="teksNilai">Nilai 4 : <input type="text" id="4"/> </p>
-			<p class="teksNilai">Nilai 5 : <input type="text" id="5"/> </p>
+			<p class="teksNilai">Nilai 1 : <input name="inputnumber"type="text" id="1"/> </p>
+			<p class="teksNilai">Nilai 2 : <input name="inputnumber"type="text" id="2"/> </p>
+			<p class="teksNilai">Nilai 3 : <input name="inputnumber"type="text" id="3"/> </p>
+			<p class="teksNilai">Nilai 4 : <input name="inputnumber"type="text" id="4"/> </p>
+			<p class="teksNilai">Nilai 5 : <input name="inputnumber"type="text" id="5"/> </p>
 			<p class="teksNilai">Hasil : <label id="rata_rata"></label></p> 
 			<table align="center" width="70%">
 				<tr>
@@ -98,66 +66,5 @@ function lowest(nilai1, nilai2, nilai3, nilai4, nilai5,)
 	      <a href="https://api.whatsapp.com/send?phone=6289635823817" target="_blank"><img class="lgo" src="wa.png"></a>
         </div>
     </footer>
-
-<script type="text/javascript">
-function inputData(Bilangan)
-{
-	var data;
-	  data = parseFloat(document.getElementById(Bilangan).value);
-	return data;
-}
-
-function Output(data){
-  document.getElementById("rata_rata").innerHTML = data;
-}
-function RataRata()
-{
-	var Nilai1, Nilai2, Nilai3, Nilai4, Nilai5, rata2;
-	Nilai1 = inputData("1");
-	Nilai2 = inputData("2");
-	Nilai3 = inputData("3");
-	Nilai4 = inputData("4");
-	Nilai5 = inputData("5");
-
-	rata2 = average(Nilai1, Nilai2, Nilai3, Nilai4, Nilai5)
-	Output(rata2);
-}
-function nilaitengah()
-{
-	var Nilai1, Nilai2, Nilai3, Nilai4, Nilai5, rata2;
-	Nilai1 = inputData("1");
-	Nilai2 = inputData("2");
-	Nilai3 = inputData("3");
-	Nilai4 = inputData("4");
-	Nilai5 = inputData("5");
-
-	tengah = median(Nilai1, Nilai2, Nilai3, Nilai4, Nilai5)
-	Output(tengah);
-}
-function nilaiterbesar()
-{
-	var Nilai1, Nilai2, Nilai3, Nilai4, Nilai5, rata2;
-	Nilai1 = inputData("1");
-	Nilai2 = inputData("2");
-	Nilai3 = inputData("3");
-	Nilai4 = inputData("4");
-	Nilai5 = inputData("5");
-
-	terbesar = highest(Nilai1, Nilai2, Nilai3, Nilai4, Nilai5)
-	Output(terbesar);
-}
-function nilaiterendah()
-{
-	var Nilai1, Nilai2, Nilai3, Nilai4, Nilai5, rata2;
-	Nilai1 = inputData("1");
-	Nilai2 = inputData("2");
-	Nilai3 = inputData("3");
-	Nilai4 = inputData("4");
-	Nilai5 = inputData("5");
-
-	terendah = lowest(Nilai1, Nilai2, Nilai3, Nilai4, Nilai5)
-	Output(terendah);
-}
-</script>
 </body>
 </html>
