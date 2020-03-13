@@ -67,3 +67,9 @@ function nilaiterendah()
 	minimal = Math.min.apply(Math, array);
 	Output(minimal);
 }
+function Resethasil()
+{
+	var reset
+	reset = ""
+	Output(reset);
+}
