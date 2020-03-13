@@ -297,6 +297,7 @@ margin-top: 2px;
   font-family: inherit; 
   margin: 0;
   height:51px;
+  margin-top:-2px;
 }
 .navbar a:hover, .dropdown:hover .dropbtn 
 {
