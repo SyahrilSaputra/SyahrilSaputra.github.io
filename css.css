@@ -293,9 +293,10 @@ margin-top: 2px;
   outline: none;
   color: white;
   padding: 14px 16px;
-  background-color: black;
+  background-color: rgba(0,0,0,0);
   font-family: inherit; 
   margin: 0;
+  height:51px;
 }
 .navbar a:hover, .dropdown:hover .dropbtn 
 {
